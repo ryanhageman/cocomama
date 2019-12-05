@@ -1,0 +1,12 @@
+{
+  "name": "cocomama__final_page",
+  "version": "1.0.0",
+  "description": "Final static page for cocomama.us",
+  "private": true,
+  "author": "Ryan Hageman",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
