@@ -50,5 +50,5 @@ activate :livereload
 activate :external_pipeline,
   name: :webpack,
   command: build? ? 'yarn run build' : 'yarn run start',
-  source: 'source',
+  source: 'assets/javascript',
   latency: 1
