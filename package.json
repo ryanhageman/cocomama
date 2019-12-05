@@ -1,0 +1,19 @@
+{
+  "name": "cocomama__final_page",
+  "version": "1.0.0",
+  "description": "Final static page for cocomama.us",
+  "private": true,
+  "author": "Ryan Hageman",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development ./node_modules/webpack/bin/webpack.js --watch -d --color",
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

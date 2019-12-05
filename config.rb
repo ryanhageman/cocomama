@@ -1,3 +1,4 @@
+require 'slim'
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
@@ -44,3 +45,11 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+activate :livereload
+
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ? 'yarn run build' : 'yarn run start',
+  source: 'assets/javascript',
+  latency: 1
