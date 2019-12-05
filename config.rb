@@ -46,3 +46,9 @@ page '/*.txt', layout: false
 # end
 
 activate :livereload
+
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ? 'yarn run build' : 'yarn run start',
+  source: 'source',
+  latency: 1
