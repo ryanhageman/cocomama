@@ -2,6 +2,9 @@ rules:
   class-name-format:
     - 1
     - convention: hyphenatedbem
+  variable-name-format:
+    - 1
+    - convention: hyphenatedbem
   placeholder-name-format:
     - 1
     - convention: hyphenatedbem
@@ -11,6 +14,3 @@ rules:
     - 'extra-properties':
         - 'gap'
         - 'row-gap'
-  variable-name-format:
-    - 1
-    - convention: hyphenatedbem
