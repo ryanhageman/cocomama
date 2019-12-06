@@ -4,9 +4,21 @@ $font--body: 'Open Sans', sans-serif;
 
 // Colors
 $cocoa: #f89e27;
+
 $background--white: #fff;
+$background__gradient--dark-black: rgba(0, 0, 0, .45);
+$background__gradient--light-black: rgba(0, 0, 0, .1);
+
+$heading__text--white: #fff;
 $heading__text--gray: #2e3234;
 $heading__text--pink: #d14262;
+
 $body__text--gray: #222;
+
 $link__text--pink: #e72a53;
 $link__text--footer: #1a1a1a;
+
+
+// Breakpoints
+$desktop: 992px;
+$tablet: 767px;
