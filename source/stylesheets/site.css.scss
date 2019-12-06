@@ -1,2 +1,8 @@
 @import 'settings/fonts';
 @import 'settings/variables';
+
+@import 'base/normalize';
+@import 'base/html_elements';
+
+@import 'components/hero_image';
+@import 'components/footer';
