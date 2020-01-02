@@ -1,0 +1,22 @@
+.c-footer {
+  align-items: center;
+  background-color: $cocoa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__logo {
+    margin-bottom: 1rem;
+    width: 50%;
+
+    @media (min-width: $tablet) {
+      width: 200px;
+    }
+  }
+
+  &__text {
+    color: $body__text--light-gray;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+  }
+}

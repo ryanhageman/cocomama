@@ -1,3 +1,4 @@
+require 'slim'
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
@@ -40,7 +41,16 @@ page '/*.txt', layout: false
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
 
-# configure :build do
-#   activate :minify_css
-#   activate :minify_javascript
-# end
+configure :build do
+  set :build_dir, 'docs'
+  activate :relative_assets
+  activate :minify_css
+end
+
+activate :livereload
+
+activate :external_pipeline,
+  name: :webpack,
+  command: build? ? 'yarn run build' : 'yarn run start',
+  source: 'assets/javascript',
+  latency: 1

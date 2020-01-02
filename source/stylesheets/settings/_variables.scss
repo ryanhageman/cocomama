@@ -1,0 +1,25 @@
+// Fonts
+$font--heading: 'Roboto', sans-serif;
+$font--body: 'Open Sans', sans-serif;
+
+// Colors
+$cocoa: hsl(34, 94%, 56%);
+
+$background--white: hsl(0, 0%, 100%);
+$background__gradient--dark-black: hsla(0, 0%, 0%, 0.45);
+$background__gradient--light-black: hsla(0, 0%, 0%, 0.1);
+
+// $heading__text--white: hsl(0, 0%, 100%);
+$heading__text--white: hsl(30, 9%, 91%);
+$heading__text--gray: hsl(200, 6%, 19%);
+$heading__text--pink: hsl(347, 61%, 54%);
+
+$body__text--gray: hsl(0, 0%, 13%);
+$body__text--light-gray: hsl(34, 29%, 45%);
+
+$link__text--pink: hsl(347, 80%, 54%);
+$link__text--footer: hsl(0, 0%, 10%);
+
+// Breakpoints
+$desktop: 992px;
+$tablet: 767px;
